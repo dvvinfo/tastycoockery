@@ -1,0 +1,36 @@
+.tastycookery{
+  padding-top: 3.75rem;
+  padding-bottom: 3.125rem;
+  background: url("../img/fon-2.webp") no-repeat;
+  background-size: cover;
+}
+.tastycookery-content{
+  max-width: 850px;
+  margin: 0 auto;
+}
+.tastycookery-text{
+  text-align: center;
+  font-size: 26px;
+  color: #ffffff;
+  margin-bottom: 2.5rem;
+}
+.tastycookery-btn{
+  border-radius: 10px;
+  background-image: linear-gradient( 27deg, rgb(18,188,130) 0%, rgb(191,223,44) 100%);
+  width: 400px;
+  height: 90px;
+  margin: 0 auto;
+  display: block;
+  font-size: 22px;
+  color: #ffffff;
+  border: none;
+
+  a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+}
+.bold{
+  font-family: Circe-ExtraBold;
+  text-transform: uppercase;
+}

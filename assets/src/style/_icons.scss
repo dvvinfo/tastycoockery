@@ -1,0 +1,37 @@
+.icons{
+  padding-top: 3.4375rem;
+  padding-bottom: 4.375rem;
+}
+
+.icons-wrapper{
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-left: 1.5625rem;
+}
+.icons-item{
+width: 19%;
+  display: flex;
+align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding-right: 15px;
+  &:last-child{
+    padding-right: 0;
+  }
+}
+.icons-item-big{
+  width: 24%;
+}
+.icons-text{
+  display: block;
+  margin-top: 1.875rem;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+.icons-img{
+  width: 108px;
+  height: 80px;
+}

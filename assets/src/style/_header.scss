@@ -1,0 +1,64 @@
+.header{
+
+  background: url("../img/fon.webp") no-repeat;
+  background-size: cover;
+  padding-top: 3.75rem;
+  padding-bottom: 6.25rem;
+}
+.header-wrapper{
+  max-width: 1200px;
+  margin: 0 auto;
+
+}
+.header-content{
+  display: flex;
+  flex-direction: column;
+}
+.title{
+  padding-top: 5rem;
+  padding-bottom: 1.875rem;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: Circe-ExtraBold;
+  font-size: 54px;
+  margin-bottom: 0;
+}
+.subtitle{
+  display: block;
+  color: #ffffff;
+  font-size: 24px;
+
+}
+.button_wrapper{
+  width: 400px;
+  height: 150px;
+  padding-right: 20px;
+  padding-top: 20px;
+  background: url("../img/shadow.png") no-repeat top center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  opacity: 0.8;
+}
+.button{
+  width: 330px;
+  height: 90px;
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+  background: linear-gradient(27deg, rgb(18,188,130) 0%, rgb(191,223,44) 100%);
+  border: none;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  font-family: Circe-ExtraBold;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  &:hover{
+    box-shadow: none;
+  }
+  a {
+    color: #ffffff;
+  }
+}

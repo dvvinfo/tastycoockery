@@ -1,0 +1,16 @@
+// Переопределение дефолтных значений переменных Bootstrap 4 и определение своих
+@import "variables";
+
+// Подключение нужных SCSS исходников Bootstrap 4
+@import "../../../node_modules/bootstrap/scss/bootstrap-reboot";
+@import "../../../node_modules/bootstrap/scss/bootstrap-grid";
+
+// Подключение своих SCSS файлов
+@import "fonts";
+@import "my";
+@import "header";
+@import "icons";
+@import "about";
+@import "tastycookery";
+@import "reviews";
+@import "footer";
