@@ -4,6 +4,7 @@
 // Подключение нужных SCSS исходников Bootstrap 4
 @import "../../../node_modules/bootstrap/scss/bootstrap-reboot";
 @import "../../../node_modules/bootstrap/scss/bootstrap-grid";
+@import "../../../node_modules/slick-carousel/slick/slick.scss";
 
 // Подключение своих SCSS файлов
 @import "fonts";
@@ -14,3 +15,4 @@
 @import "tastycookery";
 @import "reviews";
 @import "footer";
+@import "media";

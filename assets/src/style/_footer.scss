@@ -21,6 +21,7 @@ max-width: 375px;
   border: none;
   width: 370px;
   font-size: 16px;
+  color: black;
   &:focus &:active{
     border: none;
     outline: none;
@@ -61,4 +62,10 @@ max-width: 375px;
   font-size: 10px;
   font-family: Circe-Light;
   color: #ffffff;
+}
+.error{
+  margin-top: 1.25rem;
+  font-family: Circe;
+
+
 }

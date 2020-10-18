@@ -2,14 +2,17 @@
 
   background: url("../img/fon.webp") no-repeat;
   background-size: cover;
-  padding-top: 3.75rem;
-  padding-bottom: 6.25rem;
+
 }
 .header-wrapper{
   max-width: 1200px;
   margin: 0 auto;
+  padding-top: 3.75rem;
+  padding-bottom: 6.25rem;
+
 
 }
+
 .header-content{
   display: flex;
   flex-direction: column;

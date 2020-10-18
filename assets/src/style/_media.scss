@@ -1,0 +1,150 @@
+@media screen and (max-width: 1300px){
+  .header {
+    background: url("../img/fon.webp") no-repeat 50% ;
+    background-size: cover;
+  }
+}
+@media screen and (max-width: 992px){
+  .women{
+    background: url("../img/women.webp") no-repeat 50% 220px;
+    background-size: contain;
+    height: 100%;
+  }
+  .header-wrapper{
+    padding-top: 1.25rem;
+    padding-bottom: 8.5rem;
+
+  }
+  .header{
+    background: url("../img/fon1.webp") no-repeat left center;
+    background-size: cover;
+    height: 600px;
+    position: relative;
+  }
+  .title{
+    padding-top: 1.25rem;
+    font-size: 40px;
+    text-align: center;
+    padding-bottom:1rem ;
+    margin-block-end: 0;
+  }
+  .subtitle{
+    text-align: center;
+  }
+  .header-content{
+    height: 100%;
+  }
+  .button_wrapper{
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    margin-left: -25%;
+    padding-right: 0;
+  }
+  .button{
+    margin: 0 auto;
+  }
+  .icons-wrapper{
+    padding-left: 0;
+    justify-content: center;
+  }
+  .icons-img{
+    display: block;
+    margin: 0 auto;
+  }
+  .wrapper-content{
+    padding: 0;
+  }
+  .reviews-carousel {
+    width: 100%;
+  }
+  .reviews-item{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-items: start;
+  }
+  .title-2{
+    font-size: 35px;
+  }
+  .icons{
+    padding: 3.125rem 0;
+  }
+  .about{
+    padding-bottom: 2.5rem;
+  }
+  .input-email{
+    width: 330px;
+  }
+  .form-btn{
+    width: 330px;
+  }
+  .footer-text{
+    padding-left: 1.25rem;
+  }
+  .form{
+    padding-left: 0;
+  }
+  .footer{
+    padding-top: 2.5rem;
+  }
+  .copy{
+    padding-top: 3.75rem;
+  }
+  .tastycookery-btn{
+    width: 330px;
+  }
+  .mt-custom{
+    margin-top: 0;
+  }
+
+}
+@media screen and (max-width: 768px){
+  .form{
+    margin-top: 1.25rem;
+  }
+  .form-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .button_wrapper{
+    left: 45%;
+    margin-left: -25%;
+  }
+}
+@media screen and (max-width: 580px){
+  .button_wrapper{
+    left: 40%;
+    margin-left: -25%;
+  }
+  .title,.title-2{
+    font-size: 30px;
+  }
+  .tastycookery-text{
+    font-size: 16px;
+  }
+  .footer-text{
+    font-size: 20px;
+  }
+  .button_wrapper{
+    width: 330px;
+  }
+  .abouts-img {
+    width: 100%;
+    height: auto;
+  }
+
+}
+@media screen and (max-width: 420px){
+  .button_wrapper{
+    left: 35%;
+    margin-left: -25%;
+  }
+}
+@media screen and (max-width: 380px){
+  .button_wrapper{
+    left: 25%;
+    margin-left: -25%;
+  }
+}
